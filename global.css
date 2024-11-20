@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Color Scheme */
+
+.primary-color {
+  background-color: #0065BD;
+  color: #fff;
+}
+
+.secondary-color {
+  background-color: #F7DC6F;
+  color: #333;
+}
+
+.accent-color {
+  background-color: #8B0A1A;
+  color: #fff;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0065BD;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #0065BD;
+}
+
+a:hover {
+  color: #8B0A1A;
+}
+
+/* Buttons */
+
+.button {
+  background-color: #0065BD;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8B0A1A;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #0065BD;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #F7DC6F;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0065BD;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+

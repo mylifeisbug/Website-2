@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking Reservation</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="night-mode-toggle">
+			<div class="toggle-container">
+			  <div class="toggle-slider"></div>
+			  <div class="toggle-knob"></div>
+			</div>
+			<span class="toggle-text">Light</span>
+			<span class="toggle-text dark">Dark</span>
+		  </div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="heritage-sites.html">Heritage Sites</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<li class="more-options">
+				<a href="#">More</a>
+				<ul class="dropdown">
+				  <li><a href="contact.html">Contact</a></li>
+				  <li><a href="gallery.html">Gallery</a></li>
+				  <li><a href="faqs.html">FAQs</a></li>
+				  <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+				  <li><a href="privacy-policy.html">Privacy Policy</a></li>
+				  <li><a href="sitemap.html">Sitemap</a></li>
+				  <li><a href="forgot-password.html">Forgot Password</a></li>
+				  <li><a href="reset-password.html">Reset Password</a></li>
+				  <li><a href="confirmation.html">Confirmation</a></li>
+				</ul>
+			  </li>
+		</nav>
+	</header>
+	<main>
+		<h1>Booking Reservation</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="heritage-site">Heritage Site:</label>
+			<select id="heritage-site" name="heritage-site">
+				<option value="taj-mahal">Taj Mahal</option>
+				<option value="hampi">Hampi</option>
+				<option value="red-fort">Red Fort</option>
+				<option value="qutub-minar">Qutub Minar</option>
+				<option value="konark-sun-temple">Konark Sun Temple</option>
+				<option value="mahabodhi-temple">Mahabodhi Temple</option>
+				<option value="group-of-monuments-at-mahabalipuram">Group of Monuments at Mahabalipuram</option>
+				<option value="fatehpur-sikri">Fatehpur Sikri</option>
+			</select><br><br>
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date"><br><br>
+			<label for="time">Time:</label>
+			<input type="time" id="time" name="time"><br><br>
+			<button>Book Now</button>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2024 Heritage Sites in India</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
